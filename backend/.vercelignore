@@ -1,0 +1,5 @@
+﻿# Ignore env files
+.env
+frontend/.env
+backend/.env
+*.env

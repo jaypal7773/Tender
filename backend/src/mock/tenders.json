@@ -1,0 +1,72 @@
+[
+    {
+        "tender_id": "GEM/2024/123456",
+        "tender_title": "Supply and Installation of IT Hardware for Government Offices",
+        "description": "Supply of 500 desktop computers, 100 laptops, 50 printers, and networking equipment across 10 government offices in Mumbai and Pune.",
+        "estimated_cost": 25000000,
+        "emd_amount": 500000,
+        "tender_fee": 5000,
+        "published_date": "2024-01-15",
+        "bid_end_date": "2024-02-15",
+        "min_turnover": 10000000,
+        "required_certs": ["ISO 9001:2015", "MSME Registration"],
+        "min_experience": 3,
+        "locations": ["Maharashtra", "Mumbai", "Pune"],
+        "msme_benefits": true,
+        "startup_benefits": false
+    },
+    {
+        "tender_id": "GEM/2024/123457",
+        "tender_title": "Development of E-Governance Portal",
+        "description": "Design, development, and maintenance of a comprehensive e-governance portal for citizen services.",
+        "estimated_cost": 50000000,
+        "emd_amount": 1000000,
+        "tender_fee": 10000,
+        "published_date": "2024-01-10",
+        "bid_end_date": "2024-02-10",
+        "min_turnover": 25000000,
+        "required_certs": ["ISO 27001:2013", "CMMI Level 3"],
+        "min_experience": 5,
+        "locations": ["Delhi", "NCR"],
+        "msme_benefits": false,
+        "startup_benefits": true
+    },
+    {
+        "tender_id": "EPROC/2024/78901",
+        "tender_title": "Construction of Office Building",
+        "description": "Construction of a 5-story office building with modern amenities including parking, cafeteria, and conference rooms.",
+        "tender_value": 150000000,
+        "submission_deadline": "2024-03-01",
+        "turnover_required": 50000000,
+        "certifications": ["ISO 9001:2015", "Construction License"],
+        "experience_required": 7,
+        "locations": ["Karnataka", "Bangalore"]
+    },
+    {
+        "tender_id": "EPROC/2024/78902",
+        "tender_title": "Security Services for Government Buildings",
+        "description": "Comprehensive security services including CCTV installation, security guards, and access control systems.",
+        "tender_value": 8000000,
+        "submission_deadline": "2024-02-20",
+        "turnover_required": 3000000,
+        "certifications": ["PSARA License", "ISO 9001:2015"],
+        "experience_required": 2,
+        "locations": ["Telangana", "Hyderabad"]
+    },
+    {
+        "tender_id": "GEM/2024/123458",
+        "tender_title": "Cloud Migration Services",
+        "description": "Migration of existing data center to cloud infrastructure including AWS/Azure setup, data migration, and security implementation.",
+        "estimated_cost": 30000000,
+        "emd_amount": 600000,
+        "tender_fee": 7500,
+        "published_date": "2024-01-20",
+        "bid_end_date": "2024-02-20",
+        "min_turnover": 15000000,
+        "required_certs": ["AWS Partner", "Azure Expert MSP"],
+        "min_experience": 4,
+        "locations": ["All India"],
+        "msme_benefits": false,
+        "startup_benefits": true
+    }
+]

@@ -1,0 +1,156 @@
+/* Dark Mode Variables */
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-color: #e0e0e0;
+    --card-bg: #ffffff;
+    --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --sidebar-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.dark-mode {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --border-color: #2a2a4a;
+    --card-bg: #0f3460;
+    --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --sidebar-bg: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+}
+
+/* Body Dark Mode */
+.dark-mode-body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Card Dark Mode */
+.dark-mode .stat-card,
+.dark-mode .dashboard-card,
+.dark-mode .quick-actions,
+.dark-mode .tender-card,
+.dark-mode .profile-card {
+    background: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color);
+}
+
+/* Text Colors */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode .stat-value,
+.dark-mode .stat-label,
+.dark-mode .tender-title {
+    color: var(--text-primary) !important;
+}
+
+.dark-mode p,
+.dark-mode span,
+.dark-mode .tender-description,
+.dark-mode .stat-label {
+    color: var(--text-secondary) !important;
+}
+
+/* Input Fields Dark Mode */
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+    background: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border-color) !important;
+}
+
+.dark-mode input:focus,
+.dark-mode select:focus {
+    border-color: #667eea !important;
+    outline: none;
+}
+
+.dark-mode input:disabled {
+    background: #2a2a4a !important;
+    color: #888 !important;
+}
+
+/* Buttons Dark Mode */
+.dark-mode .btn-secondary {
+    background: #2a2a4a !important;
+    color: white !important;
+}
+
+.dark-mode .btn-secondary:hover {
+    background: #3a3a5a !important;
+}
+
+/* Table Dark Mode */
+.dark-mode table {
+    background: var(--card-bg);
+}
+
+.dark-mode th {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-bottom-color: var(--border-color);
+}
+
+.dark-mode td {
+    border-bottom-color: var(--border-color);
+    color: var(--text-secondary);
+}
+
+/* Modal/Dialog Dark Mode */
+.dark-mode .MuiPaper-root,
+.dark-mode .MuiDialog-paper {
+    background: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+}
+
+.dark-mode .MuiDialogTitle-root {
+    color: var(--text-primary) !important;
+}
+
+/* Menu Dark Mode */
+.dark-mode .MuiMenu-paper {
+    background: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+}
+
+.dark-mode .MuiMenuItem-root {
+    color: var(--text-primary) !important;
+}
+
+.dark-mode .MuiMenuItem-root:hover {
+    background: var(--bg-secondary) !important;
+}
+
+/* Scrollbar Dark Mode */
+.dark-mode ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #4a4a6a;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #5a5a7a;
+}
+
+/* Info Box Dark Mode */
+.dark-mode .info-box {
+    background: #1a2a4a !important;
+}
+
+.dark-mode .warning-box {
+    background: #2a1a1a !important;
+}
+
+/* Dropdown Dark Mode */
+.dark-mode select option {
+    background: var(--card-bg);
+    color: var(--text-primary);
+}
