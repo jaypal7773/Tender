@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
+import { api } from '../api'
 import toast from 'react-hot-toast'
 import { Person, Email, Phone, Lock, Visibility, VisibilityOff } from '@mui/icons-material'
 
@@ -28,7 +29,7 @@ const RegisterPage = () => {
         setLoading(true)
 
         try {
-            await axios.post('/api/auth/register', formData)
+            await api.post('/api/auth/register', formData)
             toast.success('Registration successful! Please login.')
             navigate('/login')
         } catch (error) {
