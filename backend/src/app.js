@@ -32,6 +32,9 @@ app.use('/api/workflows', require('./routes/workflowRoutes'));
 app.get('/health', (req, res) => {
     res.json({ status: 'OK', message: 'Server is running' });
 });
+app.get('/', (req, res) => {
+    res.send('Backend is running 🚀');
+});
 
 // ✅ MongoDB Atlas connection
 const connectDB = async () => {
